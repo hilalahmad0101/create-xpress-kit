@@ -1,6 +1,6 @@
 {
     "name": "create-xpress-kit",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A modern CLI tool to scaffold an Express.js starter project with best practices.",
     "type": "module",
     "main": "./bin/index.js",
