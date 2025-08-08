@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# dotenv (in case your CLI or template uses env files)
+.env
+
+# Mac system files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Output
+dist/
+build/

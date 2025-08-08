@@ -1,0 +1,37 @@
+{
+    "name": "create-xpress-kit",
+    "version": "1.0.0",
+    "description": "A modern CLI tool to scaffold an Express.js starter project with best practices.",
+    "type": "module",
+    "main": "./bin/index.js",
+    "bin": {
+        "create-xpress-kit": "./bin/index.js"
+    },
+    "keywords": [
+        "express",
+        "starter",
+        "scaffold",
+        "cli",
+        "create",
+        "xpress",
+        "starter-kit",
+        "boilerplate",
+        "nodejs",
+        "backend"
+    ],
+    "author": "Hilal Ahmad",
+    "license": "MIT",
+    "homepage": "https://github.com/hilalahmad0101/create-xpress-kit#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hilalahmad0101/create-xpress-kit.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hilalahmad0101/create-xpress-kit/issues"
+    },
+    "dependencies": {
+        "chalk": "^5.5.0",
+        "fs-extra": "^11.3.1",
+        "ora": "^8.2.0"
+    }
+}
