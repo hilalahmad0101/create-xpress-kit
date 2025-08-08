@@ -1,8 +1,17 @@
-const fs = require("fs-extra");
-const path = require("path");
-const chalk = require("chalk");
-const ora = require("ora");
+#!/usr/bin/env node
 
+import fs from "fs-extra";
+import path from "path";
+import chalk from "chalk";
+import ora from "ora";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+// Convert ES Module __dirname equivalent
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Get project name from CLI args
 const args = process.argv.slice(2);
 const projectName = args[0];
 
@@ -16,7 +25,7 @@ const templatePath = path.join(__dirname, "../template");
 
 const spinner = ora({
     text: chalk.cyan("Creating your Express starter kit..."),
-    spinner: "dots"
+    spinner: "dots",
 }).start();
 
 fs.copy(templatePath, targetPath)
