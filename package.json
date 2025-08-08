@@ -5,7 +5,7 @@
     "type": "module",
     "main": "./bin/index.js",
     "bin": {
-        "create-xpress-kit": "./bin/index.js"
+        "create-xpress-starterkit": "./bin/index.js"
     },
     "keywords": [
         "express",
