@@ -1,5 +1,5 @@
 {
-    "name": "create-xpress-starter",
+    "name": "create-xpress-starterkit",
     "version": "1.0.1",
     "description": "A modern CLI tool to scaffold an Express.js starter project with best practices.",
     "type": "module",
@@ -21,13 +21,13 @@
     ],
     "author": "Hilal Ahmad",
     "license": "MIT",
-    "homepage": "https://github.com/hilalahmad0101/create-xpress-starter#readme",
+    "homepage": "https://github.com/hilalahmad0101/create-xpress-starterkit#readme",
     "repository": {
         "type": "git",
-        "url": "https://github.com/hilalahmad0101/create-xpress-starter.git"
+        "url": "https://github.com/hilalahmad0101/create-xpress-starterkit.git"
     },
     "bugs": {
-        "url": "https://github.com/hilalahmad0101/create-xpress-starter/issues"
+        "url": "https://github.com/hilalahmad0101/create-xpress-starterkit/issues"
     },
     "dependencies": {
         "chalk": "^5.5.0",

@@ -1,8 +1,8 @@
-# 🚀 create-xpress-starter
+# 🚀 create-xpress-starterkit
 
-![npm version](https://badge.fury.io/js/create-xpress-starter.svg)
-![downloads](https://img.shields.io/npm/dm/create-xpress-starter.svg)
-![license](https://img.shields.io/npm/l/create-xpress-starter.svg)
+![npm version](https://badge.fury.io/js/create-xpress-starterkit.svg)
+![downloads](https://img.shields.io/npm/dm/create-xpress-starterkit.svg)
+![license](https://img.shields.io/npm/l/create-xpress-starterkit.svg)
 
 A lightweight **Node.js CLI tool** to scaffold **Express.js applications** with **MongoDB integration**. Generate a ready-to-go Express boilerplate with CRUD operations in one command.
 
@@ -24,7 +24,7 @@ A lightweight **Node.js CLI tool** to scaffold **Express.js applications** with 
 Install the CLI tool globally using npm:
 
 ```bash
-npm install -g create-xpress-starter
+npm install -g create-xpress-starterkit
 ```
 
 ---
@@ -34,7 +34,7 @@ npm install -g create-xpress-starter
 Create a new Express project with a single command:
 
 ```bash
-create-xpress-starter myapp
+create-xpress-starterkit myapp
 ```
 
 This will create a new folder `myapp/` with your starter project.
@@ -87,7 +87,7 @@ MONGO_URI=mongodb://localhost:27017/mydb
 
 1. **Create your project:**
    ```bash
-   create-xpress-starter my-awesome-app
+   create-xpress-starterkit my-awesome-app
    ```
 
 2. **Navigate to your project:**
