@@ -1,6 +1,6 @@
 {
     "name": "create-xpress-starterkit",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "A modern CLI tool to scaffold an Express.js starter project with best practices.",
     "type": "module",
     "main": "./bin/index.js",
