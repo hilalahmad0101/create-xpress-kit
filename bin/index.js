@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import fs from "fs-extra";
 import path from "path";
 import chalk from "chalk";
@@ -64,7 +65,7 @@ try {
         pkg.name = projectName;
         pkg.description = flag === "--api"
             ? `API project generated using create-xpress-starterkit`
-            : `Express view project (${selectedViewEngine}) generated using create-xpress-starterkit`;
+            : `Express view project(${selectedViewEngine}) generated using create-xpress-starterkit`;
         await fs.writeJson(pkgPath, pkg, { spaces: 2 });
     }
 
@@ -78,9 +79,9 @@ try {
     spinner.succeed(chalk.green("Project created successfully! 🚀"));
 
     // 4️⃣ Show next steps
-    console.log(`\nNext steps:\n`);
-    console.log(chalk.yellow(`  npm run start`));
-    console.log(chalk.yellow(`  npm run dev:css`));
+    console.log(`\nNext steps: \n`);
+    console.log(chalk.yellow(`npm run start`));
+    console.log(chalk.yellow(`npm run dev: css`));
     console.log(`\nHappy hacking! ✨\n`);
 } catch (err) {
     spinner.fail(chalk.red("Failed to create project."));
