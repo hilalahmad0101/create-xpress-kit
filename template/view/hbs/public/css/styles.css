@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Add your custom theme tokens here */
+@theme {
+    --font-display: "Satoshi", sans-serif;
+    --color-primary-500: oklch(0.84 0.18 117.33);
+    /* Add other custom tokens as needed */
+}
+
+/* Optionally extend with custom utilities */
+@layer utilities {
+    .btn-primary {
+        @apply bg-primary-500 text-white py-2 px-4 rounded;
+    }
+}
