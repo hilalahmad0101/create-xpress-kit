@@ -4,7 +4,8 @@
 ![downloads](https://img.shields.io/npm/dm/create-xpress-starterkit.svg)
 ![license](https://img.shields.io/npm/l/create-xpress-starterkit.svg)
 
-A lightweight **Node.js CLI tool** to scaffold **Express.js applications** with **MongoDB integration**. Generate a ready-to-go Express boilerplate with CRUD operations in one command.
+A lightweight **Node.js CLI tool** to scaffold **Express.js applications** with **MongoDB integration**. 
+Generate a ready-to-go Express boilerplate of api and view with hbs and ejs.
 
 ---
 
@@ -16,6 +17,7 @@ A lightweight **Node.js CLI tool** to scaffold **Express.js applications** with 
 - ✅ **Modern Node.js Setup** - ES6+ syntax and best practices
 - ✅ **Environment Configuration** - Production-ready config management
 - ✅ **Express Generator Alternative** - Faster and more opinionated setup
+- ✅ **Add hbs and ejs for view files** - Faster and more opinionated setup
 
 ---
 
@@ -34,7 +36,7 @@ npm install -g create-xpress-starterkit
 Create a new Express project with a single command:
 
 ```bash
-create-xpress-starterkit myapp
+create-xpress-starterkit myapp  --view | --api
 ```
 
 This will create a new folder `myapp/` with your starter project.
